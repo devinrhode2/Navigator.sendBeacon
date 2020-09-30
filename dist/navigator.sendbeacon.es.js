@@ -1,4 +1,6 @@
 function _typeof(obj) {
+  "@babel/helpers - typeof";
+
   if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") {
     _typeof = function (obj) {
       return typeof obj;
@@ -33,10 +35,8 @@ function polyfill() {
 }
 
 function sendBeacon(url, data) {
-  var event = this.event && this.event.type;
-  var sync = event === 'unload' || event === 'beforeunload';
   var xhr = 'XMLHttpRequest' in this ? new XMLHttpRequest() : new ActiveXObject('Microsoft.XMLHTTP');
-  xhr.open('POST', url, !sync);
+  xhr.open('POST', url, false);
   xhr.withCredentials = true;
   xhr.setRequestHeader('Accept', '*/*');
 
