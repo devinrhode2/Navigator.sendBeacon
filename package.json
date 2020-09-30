@@ -1,11 +1,11 @@
 {
-  "name": "navigator.sendbeacon",
-  "version": "0.0.21",
-  "description": "Polyfill for navigator.sendBeacon()",
-  "main": "dist/navigator.sendbeacon.cjs.js",
-  "module": "dist/navigator.sendbeacon.es.js",
-  "unpkg": "dist/navigator.sendbeacon.min.js",
-  "jsdelivr": "dist/navigator.sendbeacon.min.js",
+  "name": "navigator-sendbeacon-devin-fork",
+  "version": "0.0.20",
+  "description": "Polyfill for Navigator.sendBeacon()",
+  "main": "dist/navigator-sendbeacon-devin-fork.cjs.js",
+  "module": "dist/navigator-sendbeacon-devin-fork.es.js",
+  "unpkg": "dist/navigator-sendbeacon-devin-fork.min.js",
+  "jsdelivr": "dist/navigator-sendbeacon-devin-fork.min.js",
   "files": [
     "sendbeacon.js",
     "dist"
@@ -18,14 +18,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/miguelmota/Navigator.sendBeacon"
+    "url": "https://github.com/devinrhode2/Navigator.sendBeacon"
   },
   "keywords": [
     "navigator",
     "beacon",
     "polyfill"
   ],
-  "author": "Miguel Mota <hello@miguelmota.com> (http://www.miguelmota.com/)",
+  "author": "Devin Rhode <devinrhode2@gmail.com> (http://twitter.com/devinrhode2)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/miguelmota/Navigator.sendBeacon/issues"
