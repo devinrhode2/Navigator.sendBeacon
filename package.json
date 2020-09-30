@@ -1,6 +1,6 @@
 {
   "name": "navigator-sendbeacon-devin-fork",
-  "version": "0.0.22",
+  "version": "0.0.23",
   "description": "Polyfill for Navigator.sendBeacon()",
   "main": "dist/navigator-sendbeacon-devin-fork.cjs.js",
   "module": "dist/navigator-sendbeacon-devin-fork.es.js",
